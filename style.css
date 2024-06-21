@@ -64,4 +64,23 @@ select-box select{
     width: 100%;
     padding: 10px 15px;
     border: 1px solid #ccc;
+    color: #333;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.05rem;
+}
+.buttons button{
+    padding: 15px 0;
+    font-size: 1.09rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 0 -15px;
+}
+.buttons .refresh{
+    background: #6c757d;
+}
+.buttons .copy{
+    background: #8A6CFF;
 }
